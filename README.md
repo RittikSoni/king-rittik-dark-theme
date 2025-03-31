@@ -21,7 +21,21 @@ The **King Rittik Dark Theme** is a sleek, modern, and highly optimized dark the
 
 ## 📸 **Sneak Peek**
 
-![King Rittik Dark Theme Preview](dart_ss.png)
+### Flutter/dart
+
+![King Rittik Dark Theme Preview - Flutter/dart](dart_ss.png)
+
+### TSX/JS/Tailwind
+
+![King Rittik Dark Theme Preview - TSX/JS/Tailwind](next_tsx_tailwind.png)
+
+### Sass/SCSS/css
+
+![King Rittik Dark Theme Preview - Sass/SCSS/css](css.png)
+
+### JavaScript
+
+![King Rittik Dark Theme Preview - JavaScript](js.png)
 
 👀 **Love what you see? Try it out now!**
 

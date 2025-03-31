@@ -12,6 +12,9 @@
   "engines": {
     "vscode": "^1.82.0"
   },
+  "sponsor": {
+    "url": "https://github.com/sponsors/RittikSoni"
+  },
   "keywords": [
     "theme",
     "dark theme",
