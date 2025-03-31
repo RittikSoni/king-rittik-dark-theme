@@ -1,19 +1,35 @@
 {
   "name": "rs-dark",
   "displayName": "King Rittik Dark Theme",
-  "description": "King Rittik Dark Theme!",
+  "description": "The VS Code theme you've seen in all my YouTube videos!",
   "publisher": "KingRittik",
   "version": "0.2.1",
+  "icon": "logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RittikSoni/King-Rittik-Dark-Theme"
+  },
   "engines": {
     "vscode": "^1.82.0"
   },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "king rittik",
+    "kr theme",
+    "king theme",
+    "king rittik dark theme",
+    "kr",
+    "king",
+    "rittik theme"
+  ],
   "categories": [
     "Themes"
   ],
   "contributes": {
     "themes": [
       {
-        "label": "RS Dark",
+        "label": "King Rittik Dark Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/RS Dark-color-theme.json"
       }
