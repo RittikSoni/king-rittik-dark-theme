@@ -25,8 +25,7 @@
     "editorGroup.dropBackground": "#2aa19844",
     "editorGroupHeader.tabsBackground": "#004052",
     "editorHoverWidget.background": "#004052",
-    "editorIndentGuide.activeBackground": "#c3e1e180",
-    "editorIndentGuide.background": "#93a1a180",
+    "editorIndentGuide.background1": "#93a1a180",
     "editorLineNumber.activeForeground": "#00ffdd",
     "editorLineNumber.foreground": "#586e75",
     "editorMarkerNavigationError.background": "#ab395b",
@@ -52,7 +51,7 @@
     "list.hoverBackground": "#004454aa",
     "list.inactiveSelectionBackground": "#00445488",
     "listFilterWidget.shadow": "#00ffdd5e",
-    "minimap.selectionHighlight": "#274642",
+    "minimap.selectionHighlight": "#00ffdd9e",
     "panel.border": "#2b2b4a",
     "peekView.border": "#2b2b4a",
     "peekViewEditor.background": "#10192c",
@@ -100,7 +99,10 @@
     "terminal.ansiYellow": "#b58900",
     "titleBar.activeBackground": "#002b36",
     "titleBar.activeForeground": "#839496",
-    "widget.shadow": "#00ffdd5e"
+    "widget.shadow": "#00ffdd5e",
+    "editorIndentGuide.activeBackground1": "#0aff02c7",
+    "tab.activeBorderTop": "#00ffdd",
+    "tree.indentGuidesStroke": "#0aff02c7"
     //"actionBar.toggledBackground": "#2aa1983d",
     //"activityBar.activeBorder": "#00ffdd",
     //"activityBar.dropBorder": "#00ffdd",
@@ -728,7 +730,11 @@
         "meta.embedded",
         "source.groovy.embedded",
         "string meta.image.inline.markdown",
-        "variable.legacy.builtin.python"
+        "variable.legacy.builtin.python",
+        "punctuation.terminator.dart",
+        "punctuation.comma.dart",
+        "other.source.dart",
+        "punctuation.dot.dart"
       ],
       "settings": {
         "foreground": "#839496"
@@ -772,10 +778,16 @@
       }
     },
     {
-      "scope": "storage",
+      "scope": "storage.type.annotation.dart",
       "settings": {
-        "foreground": "#93A1A1",
+        "foreground": "#268BD2",
         "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["variable.language.dart", "storage"],
+      "settings": {
+        "foreground": "#ff9900"
       }
     },
     {
@@ -876,7 +888,19 @@
     {
       "scope": ["support.type", "support.class"],
       "settings": {
-        "foreground": "#859900"
+        "foreground": "#00ffdd"
+      }
+    },
+    {
+      "scope": [
+        "variable.parameter",
+        "parameter",
+        "label",
+        "declaration",
+        "source.dart"
+      ],
+      "settings": {
+        "foreground": "#02FD7F"
       }
     },
     {
