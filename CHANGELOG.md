@@ -1,9 +1,3 @@
-# Change Log
+## 0.3.0
 
-All notable changes to the "rs-dark" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+King rittik dark theme
