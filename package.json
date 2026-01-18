@@ -2,8 +2,10 @@
   "name": "rs-dark",
   "displayName": "King Rittik Dark Theme",
   "description": "The VS Code theme you've seen in all my YouTube videos!",
+  "author": "Rittik Soni",
   "publisher": "KingRittik",
-  "version": "0.3.1",
+  "version": "0.3.2",
+  "license": "MIT",
   "icon": "logo.png",
   "repository": {
     "type": "git",
